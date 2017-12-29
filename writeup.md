@@ -133,7 +133,7 @@ Here the resulting bounding boxes are drawn onto the image:
 
 ### Video Implementation
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./output_video/project_video.mp4)
 
 To make the prediction more robust and to get a smoother label for predicted vehicles, a camera image frame overlapping filter is used. Using 8 Frames, and a further threshold of 28 (sum of overlapping vehicle predictions over 8 frames) makes sure that false predictions are prevented. Additionally it helps to avoid flicking labels, even if there are one or two single frames on which a car isn't recognized at all.
 
