@@ -47,7 +47,7 @@ For the color features I create binned color features with a spartial size of (1
 
 The parameters are choosen manually. It was always a trade-off between performance, accuray and overfitting. Once I found parameters which allow a good prediction on several test images, I stopped tuning for a higher accuray and started to focus on processing performance.
 
-Ultimately I got a feature vector with a length of 2148.
+Ultimately I got a feature vector with a length of 2148. All the features are normalized by using *Sklearns StandardScaler*.
 
 
 ### Create a classifier
